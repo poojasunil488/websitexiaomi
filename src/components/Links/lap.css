@@ -1,0 +1,52 @@
+.lap{
+    background-color: whitesmoke;
+}
+.lap-text .laptexts{
+    margin-left: 695px;
+    margin-top: 45px;
+}
+.lap-text{
+    height: 180px;
+}
+.lap-text .laptext{
+    margin-left: 660px;
+    margin-top: 45px;
+}
+.col4{
+    background-color: white;
+    cursor: pointer;
+}
+.col4 .text4{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+.col4 .btn-4{
+    margin-left: 250px;
+}
+.col4 .img4{
+    margin-top: 50px;
+    margin-left: 180px;
+    height: 300px;
+}
+.col5{
+    background-color: white;
+    cursor: pointer;
+}
+.col5 .text5{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+.col5 .btn-4{
+    margin-left: 250px;
+}
+.col5 .img4{
+    margin-top: 50px;
+    margin-left: 180px;
+    height: 300px;
+}
+.col1 .astyle{
+    font-size: 25px;
+    margin-top: 20px;
+}

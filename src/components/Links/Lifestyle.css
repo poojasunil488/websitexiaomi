@@ -1,0 +1,35 @@
+.lifestyleclass{
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+.lifestyle-text{
+height: 180px;
+}
+.lifestyle-text .lifestyle {
+margin-left: 670px;
+margin-top: 45px;
+}
+.divisions{
+    background-color: white;
+}
+.lifestyle-text .lifestyle1{
+    margin-left: 700px;
+}
+.imagetexted  .textedtext{
+    position: relative;
+    font-size: 45px;
+    color: white;
+    bottom: 330px;
+    left: 90px;
+    font-family: 'Xiaomi Brand', 'Camphor Pro VF', 'Camphor Pro', sans-serif;;
+}
+
+.imagetexted .textedbutton{
+    position: relative;
+    font-size: 20px;
+    bottom: 300px;
+    left: 130px;
+}
+.lifestyle-text .lifestyle2{
+margin-left: 600px;
+}

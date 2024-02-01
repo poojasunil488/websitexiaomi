@@ -1,0 +1,59 @@
+.new{
+background-color: whitesmoke;
+}
+.text-center{
+    background-color: whitesmoke;
+    height: 150px;
+}
+
+h1{
+    top: 28px;
+}  
+.cards{
+    background-color: white;
+    width: 480px;
+    height: 480px;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+.cards:hover{
+    background-color: white;
+}
+.con1{
+background-color: white;
+width: 400px;
+height: 300px;
+
+}
+.cards .heading-1{
+    margin-top: 15px;
+}
+.cards .button-1{
+    margin-top: 66px; 
+    margin-left: 150px;
+    display: flex;
+    gap: 22px;
+    cursor: pointer;
+}
+.cards .image-1{
+    margin-top: 45px;
+}
+.cards .heading-2{
+    margin-top: 15px;
+}
+.cards .button-2{
+    margin-top: 66px; 
+    margin-left: 98px;
+    display: flex;
+    gap: 22px;
+    cursor: pointer;
+}
+.cards .image-2{
+    margin-top: 45px;
+
+}
+.con1:hover{
+    background-color: white;
+}

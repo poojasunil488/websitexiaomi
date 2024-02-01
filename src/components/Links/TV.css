@@ -1,0 +1,168 @@
+.text-center .TV{
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.tv{
+    background-color: whitesmoke;
+}
+.divisions{
+    background-color: white;
+    width: 480px;
+    height: 450px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.divisions:hover{
+    background-color: white;
+}
+.divisions-2{
+    background-color: white;
+    width: 580px;
+    height: 450px;
+    text-align: center;
+}
+div .divisions-2{
+    text-align: center;}
+/* Button{
+    background-color: black;
+} */
+.btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.divisions-3{
+    background-color: white;
+    width: 480px;
+    height: 450px;
+    text-align: center;
+    cursor: pointer;
+}
+.divisions .btn-bt{
+    margin-left: 100px;
+    display: flex;
+    gap: 10px;
+}
+.divisions .img1{
+    margin-top: 65px;
+}
+.divisions .texted{
+    margin-top: 20px;
+}
+
+.divisions-3 .btn-bt{
+    margin-top: 40px;
+    margin-left: 100px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+.divisions-3 .img2{
+    margin-top: 45px;
+
+}
+.divisions-3 h3{
+    margin-top: 50px;
+    font-size: 25px;
+}
+.divisions .texthead{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.divisions .arrow{
+    margin-top: 100px;
+}
+/* .div1{
+    background-color: white;
+    cursor: pointer;
+}
+.div1:hover{
+    background-color: white;
+}
+.div2{
+    background-color: white;
+    cursor: pointer;
+
+}
+.div2:hover{
+    background-color: white;
+} */
+.col1{
+    background-color: white;
+    cursor: pointer;
+}
+.col1 .text1{
+    margin-top: 20px;
+    text-align: center;
+    font-size:24px  ;
+}
+.col1 .btn-4{
+    margin-left: 250px;
+}
+.col1 .img3{
+    margin-top: 50px;
+    margin-left: 180px;
+    height: 300px;
+}
+.col2 .btn-4{
+    margin-left: 250px;
+
+}
+.col2{
+    background-color: white;
+    cursor: pointer;
+
+}
+.col2 .text2{
+    margin-top: 25px;
+
+    text-align: center;
+    font-size:24px  ;
+}
+.col2 .img3{
+    margin-top: 50px;
+    margin-left: 180px;
+    height: 300px;
+}
+.col3{
+    background-color: white;
+}
+.col3 .text1{
+    margin-top: 20px;
+    text-align: center;
+    font-size:24px  ;
+}
+.col3 .btn-4{
+    margin-left: 250px;
+}
+.col4{
+    background-color: white;
+}
+.col4 .text1{
+    margin-top: 20px;
+    text-align: center;
+    font-size:24px  ;
+}
+.col4 .btn-4{
+    margin-left: 250px;
+}
+.c1{
+    background-color: white;
+}
+.c1 .t1{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:10px  ;
+}
+.c2{
+    background-color: white;
+
+}
+.c2 .t2{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:22px  ;
+}

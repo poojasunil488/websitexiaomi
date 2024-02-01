@@ -1,0 +1,73 @@
+
+img.p1{
+    height: 400px;
+width: 100%;
+}
+.Carousel.Item.Carousel.Caption{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+button{
+    border-radius: 5px;
+    
+}
+.divs{
+    cursor: pointer;
+}
+.divs .divs-text-1{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 600px;
+    left: 120px;
+    font-weight: bold;
+}
+.divs .divs-text-1 p{
+  margin-left: 50px;
+}
+.divs .divs-link-1 a{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 700px;
+    left: 190px;
+    text-decoration: none;
+}
+.divs .divs-text-2{
+    font-size: 30px;
+    position: absolute;
+    color: white;
+    top: 600px;
+    left: 600px;
+    font-weight: bold;
+
+}
+.divs .divs-link-2 a{
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 700px;
+    left: 700px;
+}
+.divs .divs-text-3{
+    font-size: 30px;
+    position: absolute;
+    color: black;
+    top: 600px;
+    right: 100px;
+    font-weight: bold;
+}
+.divs .divs-link-3 a{
+    font-size: 20px;
+    position: absolute;
+    color: red;
+    text-decoration: none;
+    top: 700px;
+    right: 230px;
+}
+.div-1{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+}
