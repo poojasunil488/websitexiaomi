@@ -95,6 +95,7 @@ function Discover() {
           </Card.Body>
         </Card>
         </div>
+      {/* ------------------------------------------------------------------ */}
 
         <div className='see p-4'>
 <a href="/discover">See More</a>

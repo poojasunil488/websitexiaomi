@@ -32,9 +32,29 @@ function Support() {
          <h2>Xiaomi Support</h2> 
          </div>      
  </div>
-
-
-
+ 
+ {/* ---------------------------------------------------------------------------------- */}
+ <div className='block1 d-flex gap-2'>
+    <Card  style={{ width: '40rem',height:'25rem'}}>
+          <Card.Img variant="top" src="https://i02.appmifile.com/265_operator_sg/05/01/2024/ff4d8d8235394458364d40c0cec3d6e4.png?f=webp" />
+          <Card.Body>
+            <Card.Title>Republic Day Sale is Live !</Card.Title>
+            <Card.Text>
+          Grab The Best Technology At Unbeatable Price!
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card  style={{ width: '40rem',height:'25rem'}}>
+          <Card.Img variant="top" src="https://i02.appmifile.com/265_operator_sg/05/01/2024/ff4d8d8235394458364d40c0cec3d6e4.png?f=webp" />
+          <Card.Body>
+            <Card.Title>Republic Day Sale is Live !</Card.Title>
+            <Card.Text>
+          Grab The Best Technology At Unbeatable Price!
+            </Card.Text>
+          </Card.Body>
+        </Card>
+    
+ </div>
 
 
 
