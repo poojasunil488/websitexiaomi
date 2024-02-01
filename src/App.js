@@ -8,6 +8,7 @@ import  Style  from './pages/Style';
 import  Laptop  from './pages/Laptop';
 import Shop from './pages/Shop';
 import DiscoveryPage from './pages/DiscoveryPage';
+import Support from './components/Links/Support';
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
         <Route path ='/lap' element={<Laptop category='lap'/>}/>
         <Route path ='/lifestyle' element={<Style category='lifestyle'/>}/>
         <Route path ='/discover' element={<DiscoveryPage category='discover'/>}/>
-        <Route path ='/support' element={<Category category='support'/>}/>
+        <Route path ='/support' element={<Support category='support'/>}/>
         </Routes>
         <Footer/>
 

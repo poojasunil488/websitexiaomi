@@ -44,6 +44,8 @@ function TV(){
            />
       </Carousel.Item>
       </Carousel>
+      </div>
+
       {/* --------------------------------------------------------------------------- */}
 
       <div className='text-center'>
@@ -55,7 +57,6 @@ function TV(){
 </div>      
  </div>
        {/* ---------------------------------------------------- */}
-            </div>
 
             <Carousel className='mt-3'>
             <Carousel.Item>

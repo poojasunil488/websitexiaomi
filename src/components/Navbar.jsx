@@ -22,8 +22,8 @@ export const Navbar = () => {
         </ul>
         <div className='nav-login'>
         <ul className='nav-menu'>
-        <ul onClick={()=>{setMenu('discover')}}>Discover{menu==='discover'?<hr/>:<></>}</ul>
-        <ul onClick={()=>{setMenu('support')}}>Support{menu==='support'?<hr/>:<></>}</ul>
+        <ul onClick={()=>{setMenu('discover')}}><Link style={{textDecoration:'none',color:'black'}} to='/discover'>Discover</Link>{menu==='/discover'?<hr/>:<></>}</ul>
+        <ul onClick={()=>{setMenu('support')}}><Link style={{textDecoration:'none',color:'black'}} to='/support'>Support</Link>{menu==='/support'?<hr/>:<></>}</ul>
 
         </ul>
         <img width="24" height="24" src="https://img.icons8.com/ios/50/search--v1.png" alt="search--v1"/>        

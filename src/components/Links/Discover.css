@@ -1,0 +1,27 @@
+.discoverpage{
+    background-color: whitesmoke;
+}
+
+.header{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+list-style: none;
+gap: 40px;
+font-weight: bold; 
+cursor: pointer;  
+}
+.header a{
+    color: black;
+}
+
+.block1{
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.see a{
+    margin-left: 700px;
+    text-decoration: none;
+    justify-content: center;
+    color: grey;
+}
