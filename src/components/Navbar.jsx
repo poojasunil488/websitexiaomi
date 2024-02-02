@@ -31,7 +31,7 @@ export const Navbar = () => {
           <img width="24" height="24" src="https://img.icons8.com/ios/50/search--v1.png" alt="search--v1"/>        
   
        <img width="24" height="24" src="https://img.icons8.com/fluency-systems-regular/48/shopping-cart--v1.png" alt="shopping-cart--v1"/>  
-<a href='/loginregister.js'>
+<a href='/loginregister'>
           <img width="24" height="24" src="https://img.icons8.com/small/16/gender-neutral-user.png" alt="gender-neutral-user"/>     
   
 </a>  
