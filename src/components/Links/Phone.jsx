@@ -14,19 +14,21 @@ function Phone() {
        <div className='text-center'>
        <h2>Xiaomi Series</h2> 
        <p>Be A Class Apart</p>
-       <a  href=""><button >All Xiaomi Phones</button></a>
+       <a  href="/Allxiaomiphones"><button style={{border:'none',backgroundColor:'black'}} ><span style={{color:'white'}}>All Xiaomi Phones</span></button></a>
        </div>
-
+{/* ----------------------------------------------------------------------------------------------- */}
    <div className='image-field'>
     <img style={{height:'500px',width:'100%'}} src="https://i03.appmifile.com/127_operator_in/31/10/2023/d4ce42aebfe3a8323d61b06b5fbe48f4.jpg?f=webp" alt=""  />
     {/* <h1>XIAOMI 13 PRO</h1>
     <p style={{marginTop:'40px'}}>Dawn Of A New Camera Age</p> */}
    </div>
+   {/* ---------------------------------------------------------------------------------------------- */}
    <div className='text-center'>
        <h2>Redmi Series</h2> 
        <p>The Performance Racer</p>
-       <a  href=""><button >All Xiaomi Phones</button></a>
+       <a  href="/Allredmiphones"><button style={{border:'none',backgroundColor:'black'}} ><span style={{color:'white'}}>All Redmi Phones</span></button></a>
        </div>
+       {/* ---------------------------------------------------------------------------- */}
        <div className='image-field'>
     <img style={{height:'500px',width:'100%'}} src="https://i03.appmifile.com/928_operator_in/12/01/2024/6f9678a22bc693f047ce0a2d3d554ba3.jpg?f=webp" alt=""  />
     {/* <h1>XIAOMI 13 PRO</h1>

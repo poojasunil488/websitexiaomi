@@ -7,8 +7,9 @@ export const Navbar = () => {
   return (
     <div className='navbar'>
         <div className='nav-logo'>
-        <img style={{marginLeft:'50px'}} src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Xiaomi_logo_%282021-%29.svg/2048px-Xiaomi_logo_%282021-%29.svg.png' alt="" width={'40px'} />
-        </div>
+          <img style={{marginLeft:'50px'}} src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Xiaomi_logo_%282021-%29.svg/2048px-Xiaomi_logo_%282021-%29.svg.png' alt="" width={'40px'} />
+  
+       </div>
         <ul className='nav-menu'>
             <ul onClick={()=>{setMenu('store')}}><Link style={{textDecoration:'none',color:'black'}} to='/'>Store</Link>
             {menu==='store'?<hr/>:<></>}</ul>
@@ -26,10 +27,14 @@ export const Navbar = () => {
         <ul onClick={()=>{setMenu('support')}}><Link style={{textDecoration:'none',color:'black'}} to='/support'>Support</Link>{menu==='/support'?<hr/>:<></>}</ul>
 
         </ul>
-        <img width="24" height="24" src="https://img.icons8.com/ios/50/search--v1.png" alt="search--v1"/>        
-        <img width="24" height="24" src="https://img.icons8.com/fluency-systems-regular/48/shopping-cart--v1.png" alt="shopping-cart--v1"/>  
-        <img width="24" height="24" src="https://img.icons8.com/small/16/gender-neutral-user.png" alt="gender-neutral-user"/>     
+
+          <img width="24" height="24" src="https://img.icons8.com/ios/50/search--v1.png" alt="search--v1"/>        
   
+       <img width="24" height="24" src="https://img.icons8.com/fluency-systems-regular/48/shopping-cart--v1.png" alt="shopping-cart--v1"/>  
+<a href='/loginregister.js'>
+          <img width="24" height="24" src="https://img.icons8.com/small/16/gender-neutral-user.png" alt="gender-neutral-user"/>     
+  
+</a>  
         </div>
     </div>
   )

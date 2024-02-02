@@ -1,0 +1,66 @@
+.allxiaomi{
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+.headers{
+    background-color: white;
+    height: 300px;
+}
+.headlink{
+    padding: 25px;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    cursor: pointer;
+}
+.headerall{
+    font-size: 40px;
+    padding: 10px;
+    margin-left: 50px;
+}
+.lists{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 30px;
+    color: grey;
+    cursor: pointer;
+}
+.phones-div .ph-div1{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    margin-left: 20px;
+}
+.ph-div1 .ph-text{
+    font-size: 35px;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-weight: bold;  
+}
+.ph-div1 .ph-button{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.ph-div1 .ph-image{
+    margin-left: 100px;
+}
+
+.phones-div .ph-div2{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    margin-left: 20px;
+    
+}
+.ph-div1 .ph-text1{
+    font-size: 35px;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.ph-div1 .ph-button1
+{
+    margin-left: 100px;
+    margin-top: 40px;
+}

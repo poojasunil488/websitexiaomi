@@ -52,7 +52,7 @@ function TV(){
 <div className="TV">
          <h2>TV</h2> </div>  
 <div className="view">
-       <a  href=""><button style={{backgroundColor:'black'}} ><span style={{color:'white'}}>View More</span></button></a>
+       <a  href="/alltv"><button style={{backgroundColor:'black'}} ><span style={{color:'white'}}>View More</span></button></a>
   
 </div>      
  </div>
@@ -293,7 +293,7 @@ function TV(){
 </div>
 <div className='text-center mt-5'>
        <h2>TV Accessories</h2> 
-       <a  href=""><button style={{backgroundColor:'black'}} ><span style={{color:'white'}}>Learn More</span></button></a>
+       <a  href="/tvaccessories"><button style={{backgroundColor:'black'}} ><span style={{color:'white'}}>Learn More</span></button></a>
        </div>
 
        <div className="container-fluid d-flex">
@@ -333,7 +333,7 @@ function TV(){
 
 <div className='text-center mt-3'>
        <h2>Smarter Living</h2> 
-       <a  href=""><button style={{backgroundColor:'black'}}><span style={{color:'white'}}>Learn More</span></button></a>
+       <a  href="/smartliving"><button style={{backgroundColor:'black'}}><span style={{color:'white'}}>Learn More</span></button></a>
        </div>
 {/* ------------------------------------------------------------------------------- */}
 
@@ -369,7 +369,7 @@ function TV(){
 
       <div className='text-center mt-3 '>
        <h2>Smart Appliances</h2> 
-       <a  href=""><button style={{backgroundColor:'black'}}><span style={{color:'white'}}>View More</span></button></a>
+       <a  href="/smartappliances"><button style={{backgroundColor:'black'}}><span style={{color:'white'}}>View More</span></button></a>
        </div>
        {/* ----------------------------------------------------------------------------------- */}
   
@@ -411,7 +411,7 @@ function TV(){
 <div className="texthead">
    <span >All Appliances</span>
 </div> 
- <a href="/All Tv"><img className="arrow" width="50" height="50" src="https://img.icons8.com/ios/50/000000/circled-right-2.png" alt="circled-right-2"/></a>
+ <a href="/tv"><img className="arrow" width="50" height="50" src="https://img.icons8.com/ios/50/000000/circled-right-2.png" alt="circled-right-2"/></a>
   </div>
   </div>
   {/* ------------------------------------------------------------ */}
