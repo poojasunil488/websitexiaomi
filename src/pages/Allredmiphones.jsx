@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 
 function Allredmiphones() {
   return (
-    <div className='allxiaomi'>
+    <div className='allredmi'>
 <div className='headers'>
     <div className='headlink'>
     <li>Home</li>

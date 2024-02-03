@@ -1,0 +1,30 @@
+.login-form{
+    background-color: black;
+    gap: 12px;
+}
+.login-form .login-image img{
+    width: 350px;
+}
+.login-form .login-mod img{
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.login-form .login-mod span{
+    color: whitesmoke;
+    font-size:30px ;
+    margin-top: 15px;
+}
+.login-form .log-nav{
+    gap: 25px;
+    font-size: 15px;
+    margin-left: 330px;
+
+
+}
+.login-form .log-nav a{
+    color: grey;
+    list-style: none;
+    text-decoration: none;
+    margin-top:28px;
+
+}

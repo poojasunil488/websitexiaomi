@@ -17,6 +17,15 @@ import Alltv from './pages/Alltv';
 import Tvaccess from './pages/Tvaccess';
 import Smartliving from './pages/Smartliving';
 import Smartappliances from './pages/Smartappliances';
+import Useragreement from './pages/Useragreement';
+import Redmi from './pages/Redmi';
+import SecurityCamera from './pages/SecurityCamera';
+import Light from './pages/Light';
+import Tablets from './pages/Tablets';
+import Wearables from './pages/Wearables';
+import Audio from './pages/Audio';
+import Power from './pages/Power';
+
 
 function App() {
   return (
@@ -36,8 +45,18 @@ function App() {
           <Route path='/alltv' element={<Layout><Alltv category='alltv' /></Layout>} />
           <Route path='/tvaccessories' element={<Layout><Tvaccess category='tvaccessories' /></Layout>} />
           <Route path='/smartliving' element={<Layout><Smartliving category='smartliving' /></Layout>} />
-          <Route path='/smarappliances' element={<Layout><Smartappliances category='smartappliances' /></Layout>} />
+          <Route path='/smartappliances' element={<Layout><Smartappliances category='smartappliances' /></Layout>} />
           <Route path='/loginregister' element={<Login category='loginregister' />} />
+          <Route path='/useragreement' element={<Useragreement category='useragreement' />} />
+          <Route path='/redmiproduct' element={<Layout><Redmi category='redmiproduct' /></Layout>} />
+          <Route path='/securitycamera' element={<Layout><SecurityCamera category='securitycamera' /></Layout>} />
+          <Route path='/light' element={<Layout><Light category='light' /></Layout>} />
+          <Route path='/tablets' element={<Layout><Tablets category='tablets' /></Layout>} />
+          <Route path='/wear' element={<Layout><Wearables category='wear' /></Layout>} />
+          <Route path='/audio' element={<Layout><Audio category='audio' /></Layout>} />
+          <Route path='/power' element={<Layout><Power category='power' /></Layout>} />
+
+
         </Routes>
       </BrowserRouter>
     </div>

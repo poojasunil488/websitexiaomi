@@ -14,7 +14,7 @@ function Phone() {
        <div className='text-center'>
        <h2>Xiaomi Series</h2> 
        <p>Be A Class Apart</p>
-       <a  href="/Allxiaomiphones"><button style={{border:'none',backgroundColor:'black'}} ><span style={{color:'white'}}>All Xiaomi Phones</span></button></a>
+       <a  href="/Allxiaomiphones"><button style={{border:'none',backgroundColor:'black',width:'200px',height:'35px',padding:'6px'}} ><span style={{color:'white'}}>All Xiaomi Phones</span></button></a>
        </div>
 {/* ----------------------------------------------------------------------------------------------- */}
    <div className='image-field'>
@@ -26,7 +26,7 @@ function Phone() {
    <div className='text-center'>
        <h2>Redmi Series</h2> 
        <p>The Performance Racer</p>
-       <a  href="/Allredmiphones"><button style={{border:'none',backgroundColor:'black'}} ><span style={{color:'white'}}>All Redmi Phones</span></button></a>
+       <a  href="/Allredmiphones"><button style={{border:'none',backgroundColor:'black',width:'200px',height:'35px',padding:'6px'}} ><span style={{color:'white'}}>All Redmi Phones</span></button></a>
        </div>
        {/* ---------------------------------------------------------------------------- */}
        <div className='image-field'>
@@ -36,7 +36,7 @@ function Phone() {
    </div>
 
    <Carousel className='mt-3'>
-      <Carousel.Item>
+      <Carousel.Item className='item'>
         
              <img
              className="p1 d-block w-100"
@@ -44,10 +44,17 @@ function Phone() {
              alt="First slide"
              interval = {1000}
            />
+ <div className='slide-texted'>
+<span>Redmi Note 13 Pro 5G</span>
+<p>Special Launch Price $16,999</p>
 
+<a href='/redmiproduct'>
+  <button>Learn More</button>
+  
+</a>  </div>
          
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className='item'>
       <img
              className="p1 d-block w-100"
              src="https://i03.appmifile.com/205_operator_in/09/01/2024/66e9efbe9993dd67a3e12528fd27c362.jpg?f=webp"
@@ -55,8 +62,16 @@ function Phone() {
              interval = {1000}
 
            />
+           <div className='slide-texted'>
+<span>Redmi Note 13 Pro 5G</span>
+<p>Special Launch Price $16,999</p>
+
+<a href='/redmiproduct'>
+  <button>Learn More</button>
+  
+</a>  </div>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className='item'>
       <img
              className="p1 d-block w-100"
              src="https://i03.appmifile.com/234_operator_in/30/01/2024/8b3af1c378d1f2575a46e489a3939466.jpg?f=webp"
@@ -64,8 +79,16 @@ function Phone() {
              interval = {1000}
 
            />
+           <div className='slide-texted'>
+<span >Redmi Note 13 Pro 5G</span>
+<p >Special Launch Price $16,999</p>
+
+<a href='/redmiproduct'>
+  <button>Learn More</button>
+  
+</a>  </div>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className='item'>
       <img
              className="p1 d-block w-100"
              src="https://i03.appmifile.com/929_operator_in/26/12/2023/d9bc334035f897f83fbbaaf78137bef0.jpg?f=webp"
@@ -73,8 +96,17 @@ function Phone() {
              interval = {1000}
 
            />
+           <div className='slide-texted'>
+<span style={{color:'white'}}>Redmi Note 13 Pro 5G</span>
+<p style={{color:'white'}}>Special Launch Price $16,999</p>
+
+<a href='/redmiproduct'>
+  <button>Learn More</button>
+  
+</a>  </div>
       </Carousel.Item>
     </Carousel>
+    {/* ------------------------------------------------------------------------ */}
 <div className='container-fluid d-flex'>
     <div className='cards mt-3 ms-2'>
     <div className='heading-1'>
@@ -259,9 +291,8 @@ function Phone() {
        </div>
        </div>
        <div className='text-center mt-3'>
-       <h2>Xiaomi Series</h2> 
-       <p>Be A Class Apart</p>
-       <a  href=""><button >All Xiaomi Phones</button></a>
+       <h2>Our Services</h2> 
+       <p>Trusted.Secure.Reliable</p>
        </div>
        <Container className='container-fluid'>
       <Row>

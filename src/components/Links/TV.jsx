@@ -10,38 +10,58 @@ function TV(){
     return(
         <div className="tv">
             <div className="carousal">
-            <Carousel className='mt-3'>
-             <Carousel.Item>
+            <Carousel className=' mt-3'>
+             <Carousel.Item className="item">
              <img
              className="p1 d-block w-100"
              src='https://i03.appmifile.com/268_operator_in/20/11/2023/ae144f41f17608e6baa6c0cc5e4d71c5.jpg?f=webp'
              alt="First slide"
              interval = {1000}
            />
+           <div className='slide-texted'>
+<span>Redmi Note 13 Pro 5G</span>
+<p>Special Launch Price $16,999</p>
+<button>Learn More</button>
+  </div>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className="item">
              <img
              className="p1 d-block w-100"
              src='https://i03.appmifile.com/314_operator_in/10/01/2024/48f326e4361be57534d22536a9179510.jpg?f=webp&thumb=1&q=85'
              alt="First slide"
              interval = {1000}
            />
+           <div className='slide-texted'>
+<span>Redmi Note 13 Pro 5G</span>
+<p>Special Launch Price $16,999</p>
+<button>Learn More</button>
+  </div>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className="item">
              <img
              className="p1 d-block w-100"
              src='https://i03.appmifile.com/694_operator_in/20/11/2023/17fcf1a8a249853dc6269e558252b9b6.jpg?f=webp'
              alt="First slide"
              interval = {1000}
            />
+           <div className='slide-texted'>
+<span style={{color:'white'}}>Redmi Note 13 Pro 5G</span>
+<p style={{color:'white'}}>Special Launch Price $16,999</p>
+<button>Learn More</button>
+  </div>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className="item">
              <img
              className="p1 d-block w-100"
              src='https://i03.appmifile.com/186_operator_in/20/11/2023/2ec331adb5d7d32a0ff131eca3dec61a.jpg?f=webp'
              alt="First slide"
              interval = {1000}
            />
+           <div className='slide-texted'>
+<span>Redmi Note 13 Pro 5G</span>
+<p>Special Launch Price $16,999</p>
+<button>Learn More</button>
+  </div>
       </Carousel.Item>
       </Carousel>
       </div>
@@ -59,45 +79,66 @@ function TV(){
        {/* ---------------------------------------------------- */}
 
             <Carousel className='mt-3'>
-            <Carousel.Item>
+            <Carousel.Item className="item">
              <img
              className="p1 d-block w-100"
              src='https://i03.appmifile.com/273_operator_in/20/11/2023/746613389b841f3bb2d5ac6c08c925ac.jpg?f=webp'
              alt="First slide"
              interval = {1000}
            />
+            <div className='slide-texted'>
+<span>Redmi Note 13 Pro 5G</span>
+<p>Special Launch Price $16,999</p>
+<button>Learn More</button>
+  </div>
       </Carousel.Item>
-             <Carousel.Item>
+             <Carousel.Item className="item">
              <img
              className="p1 d-block w-100"
              src='https://i03.appmifile.com/265_operator_in/10/01/2024/ebe0f75dfeb1a81ad32513b176672ed9.jpg?f=webp&thumb=1&q=85'
              alt="First slide"
              interval = {1000}
            />
+            <div className='slide-texted'>
+<span>Redmi Note 13 Pro 5G</span>
+<p>Special Launch Price $16,999</p>
+<button>Learn More</button>
+  </div>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className="item">
              <img
              className="p1 d-block w-100"
              src='https://i03.appmifile.com/777_operator_in/20/11/2023/a88851f2ac3e910f8b7f018c73f43af9.jpg?f=webp'
              alt="First slide"
              interval = {1000}
            />
+            <div className='slide-texted'>
+<span style={{color:'white'}}>Redmi Note 13 Pro 5G</span>
+<p style={{color:'white'}}>Special Launch Price $16,999</p>
+<button>Learn More</button>
+  </div>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className="item">
              <img
              className="p1 d-block w-100"
              src='https://i03.appmifile.com/580_operator_in/08/01/2024/739837a9d5e3f74905c92469404c7424.jpg?f=webp&thumb=1&q=85'
              alt="First slide"
              interval = {1000}
            />
+            <div className='slide-texted'>
+<span style={{color:'white'}}>Redmi Note 13 Pro 5G</span>
+<p style={{color:'white'}}>Special Launch Price $16,999</p>
+<button>Learn More</button>
+  </div>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className="item">
              <img
              className="p1 d-block w-100"
              src='https://i03.appmifile.com/174_operator_in/25/07/2023/8119e28956ee21591bc7629fcc78cc90.png?f=webp'
              alt="First slide"
              interval = {1000}
            />
+         
       </Carousel.Item>
       </Carousel>
       {/* ------------------------------------------------------------------------------------ */}
@@ -287,7 +328,7 @@ function TV(){
   </div>
   <div className='divisions mt-3 ms-2'>
   <h1><span style={{textAlign:'center',marginTop:'46px'}}>All TV</span></h1>
-  <a href="/All Tv"><img style={{marginTop:"64px"}} width="50" height="50" src="https://img.icons8.com/ios/50/000000/circled-right-2.png" alt="circled-right-2"/></a>
+  <a href="/alltv"><img style={{marginTop:"64px"}} width="50" height="50" src="https://img.icons8.com/ios/50/000000/circled-right-2.png" alt="circled-right-2"/></a>
   </div>
 
 </div>
@@ -418,7 +459,7 @@ function TV(){
 
   <div className='text-center mt-3 '>
        <h2>Security Cameras</h2> 
-       <a  href=""><button style={{backgroundColor:'black'}}><span style={{color:'white'}}>View More</span></button></a>
+       <a  href="/securitycamera"><button style={{backgroundColor:'black'}}><span style={{color:'white'}}>View More</span></button></a>
        </div>
 
 
@@ -455,7 +496,7 @@ function TV(){
 
 <div className='text-center mt-3 '>
        <h2>Smart Light</h2> 
-       <a  href=""><button style={{backgroundColor:'black'}}><span style={{color:'white'}}>View More</span></button></a>
+       <a  href="/light"><button style={{backgroundColor:'black'}}><span style={{color:'white'}}>View More</span></button></a>
        </div>
 
 {/* ------------------------------------------------------------------------------- */}
@@ -496,7 +537,7 @@ function TV(){
 <div className="texthead">
    <span >All Smart Lights</span>
 </div> 
- <a href="/All Tv"><img className="arrow" width="50" height="50" src="https://img.icons8.com/ios/50/000000/circled-right-2.png" alt="circled-right-2"/></a>
+ <a href="/"><img className="arrow" width="50" height="50" src="https://img.icons8.com/ios/50/000000/circled-right-2.png" alt="circled-right-2"/></a>
   </div>
   </div>
 

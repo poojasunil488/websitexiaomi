@@ -10,27 +10,29 @@ function Lap() {
   return (
     <div className='lap'>
         <Carousel data-bs-theme="dark">
-          <Carousel.Item>
+          <Carousel.Item className='item'>
             <img
               className="d-block w-100"
               src="https://i03.appmifile.com/852_operator_in/03/01/2024/e8e5d489a9e12e8727ea96acaf0985bf.jpg?f=webp"
               alt="First slide"
             />
-            <div className='imageover'>
-              {/* <h5>First slide label</h5>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-            </div>
+              <div className='slide-texted'>
+<span>Redmi Note 13 Pro 5G</span>
+<p>Special Launch Price $16,999</p>
+<button>Learn More</button>
+  </div>
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item className='item'>
             <img
               className="d-block w-100"
               src="https://i03.appmifile.com/485_operator_in/03/01/2024/18652702a24931ab5a0082de0db2b316.jpg?f=webp"
               alt="Second slide"
             />
-            <div className='imageover'>
-              {/* <h5>Second slide label</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
-            </div>
+              <div className='slide-texted'>
+<span>Redmi Note 13 Pro 5G</span>
+<p>Special Launch Price $16,999</p>
+<button>Learn More</button>
+  </div>
           </Carousel.Item>
         </Carousel>
         { /* --------------------------------------------------------------------------------------- */ }
@@ -40,7 +42,7 @@ function Lap() {
            <h2 >Tablets</h2> 
     
 </div>     
-  <a  href=""><button style={{backgroundColor:'black',marginLeft:'700px'}}><span style={{color:'white'}}>View More</span></button></a>
+  <a  href="/tablets"><button style={{backgroundColor:'black',marginLeft:'700px'}}><span style={{color:'white'}}>View More</span></button></a>
        </div>
 
        <Container>
@@ -78,7 +80,7 @@ Flat ₹2,000 Bank Offer</p>
            <h2>Tablet Accessories</h2> 
     
 </div>     
-  <a  href=""><button style={{backgroundColor:'black',marginLeft:'740px'}}><span style={{color:'white'}}>View More</span></button></a>
+  <a  href="/tablets"><button style={{backgroundColor:'black',marginLeft:'740px'}}><span style={{color:'white'}}>View More</span></button></a>
        </div>
        {/* ------------------------------------------------------------------------------------------ */}
 

@@ -11,23 +11,33 @@ import p13 from '../Images/p13.png'
 function Support() {
   return (
     <div className='supportpage'>
-         <div className="carousal ">
+         <div className="carousel ">
             <Carousel>
-             <Carousel.Item>
+             <Carousel.Item className='item2'>
              <img
              className="p1 d-block w-100"
              src='https://i03.appmifile.com/892_operator_in/25/07/2023/ef3d817e3cb449619e2787722708836a.jpg?f=webp'
              alt="First slide"
              interval = {1000}
            />
+             <div className='slide-texted-2'>
+<span style={{color:'white'}}>Redmi Note 13 Pro 5G</span>
+<p style={{color:'white'}}>Special Launch Price $16,999</p>
+<button>Learn More</button>
+  </div>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className='item2'>
              <img
              className="p1 d-block w-100"
              src='https://i03.appmifile.com/715_operator_in/27/07/2023/fa1c8610ec41707ad8390f03b4522c91.jpg?f=webp'
              alt="First slide"
              interval = {1000}
            />
+             <div className='slide-texted-2'>
+<span>Redmi Note 13 Pro 5G</span>
+<p>Special Launch Price $16,999</p>
+<button>Learn More</button>
+  </div>
       </Carousel.Item>
       </Carousel>
       </div>
@@ -43,7 +53,8 @@ function Support() {
  <div className='block2 d-flex gap-2'>
     <Card  style={{ width: '35rem',height:'15rem'}}>
           <Card.Body className='sizetext'>
-         <a className='size' style={{textDecoration:'none',marginLeft:'140px',color:'black',fontSize:'25px'}} href="">Chat Now(Hindi/English) </a><img  src="https://i03.appmifile.com/789_operator_in/19/09/2023/dc4ff90368ef3046c01214cbee6e7fc6!320x320.png" alt="" width={'75px'} height={'75px'} />
+         <a className='size' style={{textDecoration:'none',marginLeft:'140px',color:'black',fontSize:'25px'}} href="">Chat Now(Hindi/English) </a>
+         <img  src="https://i03.appmifile.com/789_operator_in/19/09/2023/dc4ff90368ef3046c01214cbee6e7fc6!320x320.png" alt="" width={'75px'} height={'75px'} />
           </Card.Body>
         </Card>
         <Card  style={{ width: '35rem',height:'15rem'}}>
@@ -79,7 +90,8 @@ function Support() {
 <div className='block2 d-flex gap-2'>
     <Card  style={{ width: '20rem',height:'15rem'}}>
           <Card.Body className='sizetext'>
-         <a className='size' style={{textDecoration:'none',marginLeft:'10px',color:'black',fontSize:'25px',marginTop:'-100px'}} href="">How To Update The Phone</a><img  src="https://i03.appmifile.com/789_operator_in/19/09/2023/dc4ff90368ef3046c01214cbee6e7fc6!320x320.png" alt="" width={'15px'} height={'15px'} />
+         <a className='size' style={{textDecoration:'none',marginLeft:'10px',color:'black',fontSize:'25px',marginTop:'-100px'}} href="">How To Update The Phone</a>
+         <img  src="https://i03.appmifile.com/423_operator_in/19/09/2023/ec38c964e11a9528bb988fceb1bb44a0!320x320.png" alt="" width={'15px'} height={'15px'} />
           </Card.Body>
         </Card>
         <Card  style={{ width: '20rem',height:'15rem'}}>

@@ -1,4 +1,6 @@
 import React from 'react'
+import Button from 'react-bootstrap/Button';
+import './smartapp.css';
 
 function Smartappliances() {
   return (
@@ -23,6 +25,206 @@ function Smartappliances() {
         <li>In Stock</li>
     </div>
 </div>
+{/* --------------------------------------------------------------------------- */}
+<div className='container-fluid d-flex'>
+    <div className='divisions mt-3 p-2'>
+ <div className="texted">
+    <h3>Xiaomi Home</h3>
+    <p>Security Camera</p>
+ </div>
+ <div className="btn-bt">
+    <Button variant="dark" size="sm">Buy Now</Button>
+    <Button variant="secondary" size="sm">Learn More</Button>
+ </div>
+  <img className="img1" src="https://i03.appmifile.com/477_item_in/18/01/2024/a9a0612bc2ac34d2f2ccaea40720a78f.jpg?f=webp" alt="" width={'210px'} />
+  </div>
+  <div className='divisions mt-3 ms-2'>
+  <div className="texted">
+    <h3>Xiaomi Home</h3>
+    <p>Purifier</p>
+  </div>
+  <div className="btn-bt">
+    <Button  variant="dark" size="sm">Buy Now</Button>
+    <Button variant="secondary" size="sm">Learn More</Button>
+  </div>
+  <img className="img1" src="https://i03.appmifile.com/29_item_in/25/08/2023/648b412c0b3e4a6e32f28bbf24c282b1.jpg?f=webp" alt="" width={'250px'} />
+  </div>
+  <div className='divisions mt-3 ms-2'>
+  <div className="texted">
+    <h3>Mi Home Purifier</h3>
+    <h4>From $17,999</h4>
+  </div>
+  <div className="btn-bt">
+    <Button  variant="dark" size="sm">Buy Now</Button>
+    <Button variant="secondary" size="sm">Learn More</Button>
+  </div>
+  <img className="img1" src="https://i03.appmifile.com/29_item_in/25/08/2023/648b412c0b3e4a6e32f28bbf24c282b1.jpg?f=webp" alt="" width={'250px'} />
+  </div>
+  <div className='divisions mt-3 ms-2'>
+ <div className="texted">
+    <h3>Redmi Robot Vaccum</h3>
+    <h4>Mop 2i</h4>
+ </div>
+  <div className="btn-bt">
+    <Button  variant="dark" size="sm">Buy Now</Button>
+    <Button variant="secondary" size="sm">Learn More</Button>
+  </div>
+  <img className="img1" src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1681292953.55387072.jpg?f=webp" alt="" width={'250px'} />
+  </div>
+</div>
+<div className="container-fluid d-flex">
+<div className='divisions mt-3'>
+  <div className="texted">
+    <h3>Xiaomi Smart Air Fryer</h3>
+    <p>10% Bank Offer</p>
+  
+  </div>
+  <div className="btn-bt">
+    <Button  variant="dark" size="sm">Buy Now</Button>
+    <Button variant="secondary" size="sm">Learn More</Button>
+  </div>
+  <img className="img1" src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1681311205.12135276.jpg?f=webp" alt="" width={'250px'} />
+  </div>
+  <div className='divisions mt-3 ms-2'>
+  <div className="texted">
+    <h3>Xiaomi Robot Vaccum</h3>
+    <p>10% Bank Offer</p>
+  </div>
+<div className="btn-bt">
+  
+    <Button  variant="dark" size="sm">Buy Now</Button>
+    <Button variant="secondary" size="sm">Learn More</Button>
+</div>
+  <img className="img1" src="https://i03.appmifile.com/275_item_in/09/06/2023/4d36068e476e5e4cbe932709a47e71e6.jpg?f=webp" alt="" width={'250px'} />
+  </div>
+  <div className='divisions mt-3 ms-2'>
+  <div className="texted">
+    <h3>Xiaomi Home Security Camera</h3>
+    <p>10% Bank Offer</p>
+  </div>
+<div className="btn-bt">
+  
+    <Button  variant="dark" size="sm">Buy Now</Button>
+    <Button variant="secondary" size="sm">Learn More</Button>
+</div>
+  <img className="img1" src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1658400388.2213048.jpg?f=webp" alt="" width={'250px'} />
+  </div>
+  <div className='divisions mt-3 ms-2'>
+  <div className="texted">
+  <h3>Xiaomi Home Security Camera</h3>
+    <p>10% Bank Offer</p>
+  </div>
+<div className="btn-bt">
+  
+    <Button  variant="dark" size="sm">Buy Now</Button>
+    <Button variant="secondary" size="sm">Learn More</Button>
+</div>
+  <img className="img1" src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1657105733.93229769.jpg?f=webp" alt="" width={'250px'} />
+  </div>
+  
+</div>
+<div className="container-fluid d-flex">
+<div className='divisions mt-3'>
+ <div className="texted">
+    <h3>Xiaomi LED Bulb</h3>
+    <p>10% Bank Offer</p>
+ </div>
+  <div className="btn-bt">
+    <Button  variant="dark" size="sm">Buy Now</Button>
+    <Button variant="secondary" size="sm">Learn More</Button>
+  </div>
+  <img className="img1" src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1638345123.88957524.jpg?f=webp" alt="" width={'250px'} />
+  </div>
+  <div className='divisions mt-3 ms-2'>
+  <div className="texted">
+    <h3>Xiaomi Motion Activated</h3>
+    <p>Night Light</p>
+  </div>
+<div className="btn-bt">
+  
+    <Button  variant="dark" size="sm">Buy Now</Button>
+    <Button variant="secondary" size="sm">Learn More</Button>
+</div>
+  <img className="img1" src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1616606687.68573462.jpg?f=webp" alt="" width={'250px'} />
+  </div>
+  <div className='divisions mt-3 ms-2'>
+  <div className="texted">
+    <h3>Xiaomi Smart Bedside Lamp</h3>
+    <p>10% Bank Offer</p>
+  </div>
+ <div className="btn-bt">
+    <Button  variant="dark" size="sm">Buy Now</Button>
+    <Button variant="secondary" size="sm">Learn More</Button>
+ </div>
+  <img className="img1" src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1568353105.62414890.jpg?f=webp" alt="" width={'250px'} />
+  </div>
+  <div className='divisions mt-3 ms-2'>
+  <div className="texted">
+    <h3>Xiaomi Earpode</h3>
+    <p>10% Bank Offer</p>
+  </div>
+<div className="btn-bt">
+    <Button  variant="dark" size="sm">Buy Now</Button>
+    <Button variant="secondary" size="sm">Learn More</Button>
+</div>
+  <img className="img1" src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1571914613.44793569.jpg?f=webp" alt="" width={'250px'} />
+  </div>
+  
+</div>
+<div className="container-fluid d-flex p-2">
+<div className='divisions mt-3'>
+  <div className="texted">
+    <h3>Xiaomi LED Desk</h3>
+    <p>10% Bank Offer</p>
+  </div>
+<div className="btn-bt">
+  
+    <Button  variant="dark" size="sm">Buy Now</Button>
+    <Button variant="secondary" size="sm">Learn More</Button>
+</div>
+  <img className="img1" src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1573026081.94171327.jpg?f=webp" alt="" width={'250px'} />
+  </div>
+  <div className='divisions mt-3 ms-2'>
+  <div className="texted">
+    <h3>Xiaomi LED Desk</h3>
+    <p>10% Bank Offer</p>
+  </div>
+  <div className="btn-bt">
+    <Button  variant="dark" size="sm">Buy Now</Button>
+    <Button variant="secondary" size="sm">Learn More</Button>
+  </div>
+  <img className="img1" src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1574669860.58966823.jpg?f=webp" alt="" width={'250px'} />
+  </div>
+  <div className='divisions mt-3 ms-2'>
+  <div className="texted">
+    <h3>Xiaomi LED Bulb</h3>
+    <p>10% Bank Offer</p>
+  
+  </div>
+  <div className="container-button">
+   <div className="btn-bt">
+      <Button variant="dark" size="sm">Buy Now</Button>
+      <Button variant="secondary" size="sm">Learn More</Button>
+   </div>
+  </div>
+  <img className="img1" src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1626019866.9315486.jpg?f=webp" alt="" width={'250px'} />
+  </div>
+  <div className='divisions mt-3 ms-2'>
+  <div className="texted">
+    <h3>Xiaomi Security Camera</h3>
+    <p>10% Bank Offer</p>
+  
+  </div>
+  <div className="container-button">
+   <div className="btn-bt">
+      <Button variant="dark" size="sm">Buy Now</Button>
+      <Button variant="secondary" size="sm">Learn More</Button>
+   </div>
+  </div>
+  <img className="img1" src="https://i03.appmifile.com/759_item_in/16/01/2024/6a7cb23de43398ce806629f6a9c1b843.jpg?f=webp" alt="" width={'250px'} />
+  </div>
+  </div>
+  {/* --------------------------------------------------------------------------------------------- */}
     </div>
   )
 }

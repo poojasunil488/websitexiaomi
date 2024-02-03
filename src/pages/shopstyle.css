@@ -1,7 +1,31 @@
+.shop{
+    overflow-x: hidden;
+}
+.carousel .item .slide-texted span{
+    position: absolute;
+    top: 100px;
+    left: 32px;
+    font-size: 45px;
+    font-weight: bold;
+}
+.carousel .item .slide-texted button{
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    background-color: black;
+    color: white;
+}
+.carousel .item .slide-texted p{
+ position: absolute;
+ top: 170px;
+ left: 85px;
+ font-size: 25px;
+}
 
 img.p1{
     height: 400px;
 width: 100%;
+cursor: pointer;
 }
 .Carousel.Item.Carousel.Caption{
     font-size: xx-large;
@@ -38,7 +62,7 @@ button{
     position: absolute;
     color: white;
     top: 600px;
-    left: 600px;
+    left: 630px;
     font-weight: bold;
 
 }
@@ -48,7 +72,7 @@ button{
     color: white;
     text-decoration: none;
     top: 700px;
-    left: 700px;
+    left: 720px;
 }
 .divs .divs-text-3{
     font-size: 30px;
@@ -70,4 +94,8 @@ button{
     background-color: white;
     width: 400px;
     height: 400px;
+}
+.div-section .sec1{
+    background-color: white;
+    width: 400px;
 }

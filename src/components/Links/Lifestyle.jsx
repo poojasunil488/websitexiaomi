@@ -8,49 +8,53 @@ function Lifestyle() {
   return (
     <div className='lifestyleclass'>
         <Carousel data-bs-theme="dark">
-          <Carousel.Item>
+          <Carousel.Item className='item'>
             <img
               className="d-block w-100"
               src="https://i03.appmifile.com/693_operator_in/25/09/2023/ae6ed6fdecd72f1335572edd7e9a7f7b.jpg?f=webp"
               alt="First slide"
             />
-            <div className='imageover'>
-              {/* <h5>First slide label</h5>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-            </div>
+             <div className='slide-texted'>
+<span>Redmi Note 13 Pro 5G</span>
+<p>Special Launch Price $16,999</p>
+<button>Learn More</button>
+  </div>
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item className='item'>
             <img
               className="d-block w-100"
               src="https://i03.appmifile.com/268_operator_in/23/06/2023/b50b27200bccb5c27b2b8311c67bb212.jpg?f=webp"
               alt="Second slide"
             />
-            <div className='imageover'>
-              {/* <h5>Second slide label</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
-            </div>
+              <div className='slide-texted'>
+<span style={{color:'white'}}>Redmi Note 13 Pro 5G</span>
+<p style={{color:'white'}}>Special Launch Price $16,999</p>
+<button>Learn More</button>
+  </div>
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item className='item'>
             <img
               className="d-block w-100"
               src="https://i03.appmifile.com/270_operator_in/07/10/2023/eb51a51bcc904972d7a5abd02864a027.jpg?f=webp"
               alt="Second slide"
             />
-            <div className='imageover'>
-              {/* <h5>Second slide label</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
-            </div>
+              <div className='slide-texted'>
+<span>Redmi Note 13 Pro 5G</span>
+<p>Special Launch Price $16,999</p>
+<button>Learn More</button>
+  </div>
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item className='item'>
             <img
               className="d-block w-100"
               src="https://i03.appmifile.com/731_operator_in/01/08/2023/3c3230c26d4251048a0917ea059b7738.jpg?f=webp"
               alt="Second slide"
             />
-            <div className='imageover'>
-              {/* <h5>Second slide label</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
-            </div>
+              <div className='slide-texted'>
+<span>Redmi Note 13 Pro 5G</span>
+<p>Special Launch Price $16,999</p>
+<button>Learn More</button>
+  </div>
           </Carousel.Item>
         </Carousel>
 {/* ----------------------------------------------------------------------------------------------- */}
@@ -60,7 +64,7 @@ function Lifestyle() {
            <h2>Smart Watch</h2> 
     
 </div>     
-  <a  href=""><button style={{backgroundColor:'black',marginLeft:'700px'}}><span style={{color:'white'}}>View More</span></button></a>
+  <a  href="/wear"><button style={{backgroundColor:'black',marginLeft:'700px'}}><span style={{color:'white'}}>View More</span></button></a>
        </div>
 
 {/* ----------------------------------------------------------------------------------- */}
@@ -108,7 +112,7 @@ function Lifestyle() {
 <div className='lifestyle1'>
            <h2>Audio</h2> 
     </div>     
-  <a  href=""><button style={{backgroundColor:'black',marginLeft:'700px'}}><span style={{color:'white'}}>View More</span></button></a>
+  <a  href="/audio"><button style={{backgroundColor:'black',marginLeft:'700px'}}><span style={{color:'white'}}>View More</span></button></a>
        </div>
 {/* --------------------------------------------------------------------------------- */}
 <div className='imagetexted'>
@@ -214,7 +218,7 @@ function Lifestyle() {
 <div className='lifestyle2'>
            <h2>PowerBanks & Chargers</h2> 
     </div>     
-  <a  href=""><button style={{backgroundColor:'black',marginLeft:'700px'}}><span style={{color:'white'}}>View More</span></button></a>
+  <a  href="/power"><button style={{backgroundColor:'black',marginLeft:'700px'}}><span style={{color:'white'}}>View More</span></button></a>
        </div>
 {/* ---------------------------------------------------------------------------------------------- */}
 <div className="container-fluid d-flex gap-2">

@@ -1,0 +1,36 @@
+.head-1{
+    background-color: #f6f4f4;
+        height: 60px;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        overflow: hidden;
+}
+.head-1 .red-text{
+    margin-top: 12px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 40px;
+    
+}
+.head-1 .red-link{
+    gap: 25px;
+    font-size: 15px;
+    margin-left: 830px;
+}
+.head-1 .red-link a{
+    color: grey;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.red-text-img .redmi-text{
+    position: absolute;
+    top: 500px;
+    left: 400px;
+}
+
