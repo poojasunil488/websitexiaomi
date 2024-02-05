@@ -1,0 +1,32 @@
+.productredmi{
+    overflow-x: hidden;
+}
+/* 
+.innerslide .image-1{
+   
+} */
+.logoimage10{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 40px;
+}
+ .img10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .image-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+} */
+
+.video{
+    background-color: whitesmoke;
+}
+.icons8{
+    position: absolute;
+display: grid;
+right: 20px;
+}

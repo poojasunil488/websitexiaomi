@@ -129,7 +129,7 @@ Flat ₹2,000 Bank Offer</p>
            <h2>Our Services</h2> 
     
 </div>     
-  <a  href=""><button style={{backgroundColor:'black',marginLeft:'700px'}}><span style={{color:'white'}}>View More</span></button></a>
+<p style={{marginLeft:'670px'}}>Trusted.Secure.Reliable</p>
        </div>
        <Container>
       <Row className="d-flex gap-2 p-2">

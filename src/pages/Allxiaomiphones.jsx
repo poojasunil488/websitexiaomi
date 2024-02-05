@@ -13,7 +13,7 @@ function Allxiaomiphones() {
     <li>Xiaomi Series</li>
     </div>
     <div className='headerall'>
-        <span>
+        <span style={{fontSize:'33px',fontWeight:'bold'}}>
         Xiaomi Series
         </span>
         </div>

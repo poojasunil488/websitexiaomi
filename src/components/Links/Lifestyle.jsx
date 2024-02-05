@@ -350,7 +350,7 @@ function Lifestyle() {
            <h2>Grooming And Hygiene</h2> 
            <p style={{marginLeft:'65px'}}>Look Good Feel Good</p>
     </div>     
-  <a  href=""><button style={{backgroundColor:'black',marginLeft:'700px'}}><span style={{color:'white'}}>View More</span></button></a>
+  <a  href="/grooming"><button style={{backgroundColor:'black',marginLeft:'700px'}}><span style={{color:'white'}}>View More</span></button></a>
        </div>
 
        {/* ----------------------------------------------------------------------------------- */}
@@ -399,7 +399,7 @@ function Lifestyle() {
 <div className='lifestyle2'>
            <h2>Apparel Shoes & More</h2> 
     </div>     
-  <a  href=""><button style={{backgroundColor:'black',marginLeft:'700px'}}><span style={{color:'white'}}>View More</span></button></a>
+  <a  href="/apparal"><button style={{backgroundColor:'black',marginLeft:'700px'}}><span style={{color:'white'}}>View More</span></button></a>
        </div>
 {/* --------------------------------------------------------------------------------- */}
 <div className="container-fluid d-flex gap-2 p-2">
@@ -445,7 +445,7 @@ function Lifestyle() {
 <div className='lifestyle2'>
            <h2 style={{marginLeft:'38px'}}>BackPack & More</h2> 
     </div>     
-  <a  href=""><button style={{backgroundColor:'black',marginLeft:'700px'}}><span style={{color:'white'}}>View More</span></button></a>
+  <a  href="/pack"><button style={{backgroundColor:'black',marginLeft:'700px'}}><span style={{color:'white'}}>View More</span></button></a>
        </div>
 
 {/* ------------------------------------------------------------------------------------------------------ */}

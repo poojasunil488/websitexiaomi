@@ -33,4 +33,31 @@
     top: 500px;
     left: 400px;
 }
-
+.item4 .section1{
+    margin-left: 400px;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+}
+.titile h5{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(-2px);
+    }
+}
+.titile p{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(-2px);
+    }
+}

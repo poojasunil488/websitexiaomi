@@ -19,15 +19,15 @@ function Shop(){
         
              <img
              className="p1 d-block w-100"
-             src="https://i03.appmifile.com/778_operator_in/22/01/2024/26edffb39ac6959159a75b4c4633c084.jpg?f=webp"
+             src="https://i03.appmifile.com/896_operator_in/05/02/2024/68f2947f8d2376e0bcb51cd12989f397.jpg"
              alt="First slide"
              interval = {1000}
            />
 
 <div className='slide-texted'>
-<span>Redmi Note 13 Pro 5G</span>
-<p>Special Launch Price $16,999</p>
-<a href='/redmiproduct'>
+<span style={{color:'white'}}>Redmi Note 13 Pro 5G</span>
+<p style={{color:'white'}}>Special Launch Price $16,999</p>
+<a href='/productredmi'>
   <button>Learn More</button>
   
 </a>  </div>
@@ -127,13 +127,17 @@ function Shop(){
   </div>
 {/* Image section */}
 <div className='block2 d-flex gap-2 p-2'>
-    <Card  style={{ width: '40rem',height:'25rem'}}>
+    <Card  style={{ width: '38rem',height:'30rem'}}>
           <Card.Body className='sizetext'>
-         <a className='size' style={{textDecoration:'none',marginLeft:'140px',color:'black',fontSize:'55px'}} href="">Xiaomi Care </a>
+         <a className='size' style={{textDecoration:'none',marginLeft:'180px',color:'black',fontSize:'50px',marginTop:'-50px',fontWeight:'800px'}} href="">Xiaomi Care </a>
          <div className='three-logo d-flex'>
-<img style={{marginTop:'100px',marginLeft:'-350px'}} src="https://i03.appmifile.com/48_operator_in/17/11/2022/786ada679e2e325724eabe2876999875!96x96.png" alt="" />
-<img style={{marginTop:'100px',marginLeft:'-195px'}} src="https://i03.appmifile.com/101_operator_in/17/11/2022/0f88264f22456edc80f4ddbbab017d9a!96x96.png" alt="" />
+<img style={{marginTop:'100px',marginLeft:'-350px'}} src="https://i03.appmifile.com/48_operator_in/17/11/2022/786ada679e2e325724eabe2876999875!96x96.png" alt="" /><br/>
+<a style={{marginTop:'250px',marginLeft:'35px',textDecoration:'none'}} href=""><span style={{color:'black'}}>Mi Extended Warranty</span></a>
+<img style={{marginTop:'100px',marginLeft:'-165px'}} src="https://i03.appmifile.com/314_operator_in/17/11/2022/f9e475a37bff4b308e265881090a50ab!96x96.png" alt="" />
+<a style={{marginTop:'250px',marginLeft:'35px',textDecoration:'none'}} href=""><span style={{color:'black'}}>Mi Screen Protect</span></a>
 
+<img style={{marginTop:'100px',marginLeft:'-5px'}} src="https://i03.appmifile.com/101_operator_in/17/11/2022/0f88264f22456edc80f4ddbbab017d9a!96x96.png" alt="" />
+<a style={{marginTop:'250px',marginLeft:'35px',textDecoration:'none'}} href=""><span style={{color:'black'}}>Mi Complete Protect</span></a>
 
          </div>
           </Card.Body>

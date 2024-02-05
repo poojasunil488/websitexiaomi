@@ -25,6 +25,10 @@ import Tablets from './pages/Tablets';
 import Wearables from './pages/Wearables';
 import Audio from './pages/Audio';
 import Power from './pages/Power';
+import Productredmi from './pages/Productredmi';
+import Grooming from './pages/Grooming';
+import Apparal from './pages/Apparal';
+import Pack from './pages/Pack';
 
 
 function App() {
@@ -55,6 +59,10 @@ function App() {
           <Route path='/wear' element={<Layout><Wearables category='wear' /></Layout>} />
           <Route path='/audio' element={<Layout><Audio category='audio' /></Layout>} />
           <Route path='/power' element={<Layout><Power category='power' /></Layout>} />
+          <Route path='/productredmi' element={<Productredmi category='productredmi' />} />
+          <Route path='/grooming' element={<Layout><Grooming category='grooming' /></Layout>} />
+          <Route path='/apparal' element={<Layout><Apparal category='apparal' /></Layout>} />
+          <Route path='/pack' element={<Layout><Pack category='pack' /></Layout>} />
 
 
         </Routes>
